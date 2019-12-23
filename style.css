@@ -25,8 +25,12 @@ header{
 }
 header h1 {
     margin-top: -420px;
-    font-size: 3em;
+    /*font-size: 3em;*/
+    line-height: 74px;
+    font-size: 55px;
 }
+
+
 header, header:before{
     background: 50% 50% / cover;
     margin-top: -15%;
@@ -173,6 +177,7 @@ h6 {
   height: 50px;
   width: 100%;
   text-align: center;
+  margin-top: -50px;
 }
 
 .wrap2 {
@@ -215,7 +220,7 @@ h6 {
   margin-top: 800px;
   /*margin:0;*/
   padding:0;
-  height: 5500px;
+  height: 5050px;
   /* background: url(images/background2.png) no-repeat center fixed; */
   /* background: url(images/background3.png) center; */
   /*background: url(images/all_decors.png) center fixed; */
@@ -282,6 +287,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   height: 200px;
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
 
@@ -290,7 +296,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   margin-top: 500px;
   /*margin:0;*/
   padding:0;
-  height: 10000px;
+  height: 5050px;
   /* background: url(images/background2.png) no-repeat center fixed; */
   /* background: url(images/background3.png) center; */
   /*background: url(images/all_decors.png) center fixed; */
@@ -303,9 +309,10 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 .content-all3 { 
   /*margin:0;*/
-  margin-top: 500px;
+  margin-top: 370px;
   padding:0;
-  height: 10000px;
+  /*height: 5050px;*/
+  height: 5526px;
   /* background: url(images/background2.png) no-repeat center fixed; */
   /* background: url(images/background3.png) center; */
   /*background: url(images/all_decors.png) center fixed; */
@@ -313,6 +320,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   background: url(images/original3.gif) center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+  z-index: 0;
 }
 
 .ContainerVideo {
@@ -346,6 +354,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 .scroll {
     position: absolute;
+    margin-left: 10%;
 }
 
 
@@ -359,28 +368,38 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 
 .c1 {
-  margin-top: 200px;
-  margin-left: 300px;
+  /*margin-top: 200px;
+  margin-left: 300px;*/
+  margin-top: 20%;
+  margin-left: 10%;
 }
 
 .c2 {
-  margin-top: 950px;
-  margin-left: 600px;
+  /*margin-top: 950px;
+  margin-left: 600px;*/
+  margin-top: 90%;
+  margin-left: 50%;
 }
 
 .c3 {
-  margin-top: 1850px;
-  margin-left: 50px;
+  /*margin-top: 1850px;
+  margin-left: 50px;*/
+  margin-top: 140%;
+  margin-left: 8%;
 }
 
 .c4 {
-  margin-top: 3050px;
-  margin-left: 650px;
+  /*margin-top: 3050px;
+  margin-left: 650px;*/
+  margin-top: 235%;
+  margin-left: 55%;
 }
 
 .c5 {
-  margin-top: 4350px;
-  margin-left: 600px;
+  /*margin-top: 4350px;
+  margin-left: 600px;*/
+  margin-top: 300%;
+  margin-left: 30%;
 }
 
 .c6 {
