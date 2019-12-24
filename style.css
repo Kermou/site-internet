@@ -80,6 +80,18 @@ header h1 {
   .c1, .c2, .c3, .c4, .c5 {
     padding: 10px 10px 10px 10px !important;
   }
+  .miniature{
+    height: 20px !important;
+  }
+  .text{
+    font-size: 8px !important;
+  }
+
+}
+
+
+.miniature{
+  height: 50px;
 }
 
 
@@ -135,11 +147,6 @@ header * {
   background: #FF8008;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.hearth {
-  width: 10%;
-  display:inline-block;
 }
 
 .imageuser {
@@ -316,8 +323,20 @@ background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-2
 background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.exm3 {
+  position: relative;
+  /*height: 300px;*/
+  width: 100%;
+  float: left;
+  text-align: center;
+    /*box-shadow: inset 1px 1px 12px #555;*/
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-.exm2 h3, .hearths h3 { 
+
+.exm2 h3, .exm3 h3 { 
   --font: Catamaran;
   --fm-capitalHeight: 0.68;
   --fm-descender: 0.54;
@@ -328,7 +347,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   font-size: 40px; 
 }
 
-.exm2 h4, .hearths h4 { 
+.exm2 h4, .exm3 h4 { 
   color: white; 
   font-family: 'Open Sans', 
   sans-serif; font-size: 30px; 
@@ -552,3 +571,6 @@ font-family: var(--font);
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+
