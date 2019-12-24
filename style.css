@@ -90,6 +90,61 @@ header h1 {
 }
 
 
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .imageuser {
+    margin-top: -12% !important;
+    width: 25vw !important;
+  }
+  header h1 {
+    margin-top: -20%;
+  }
+  .content-all { 
+    height: 3130px !important;
+  }
+  .content-all3 { 
+    height: 3120px !important;
+  }
+  .content-all3 { 
+    margin-top: 510px !important;
+  }
+  .content-all { 
+    margin-top: 716px !important;
+  }
+  .icon {
+  left: 40% !important;
+  }
+  .hearths {
+    height: 600px !important;
+  }
+  .c2 {
+    margin-top: 120% !important;
+    margin-left: 28% !important;
+  }
+  .c3 {
+    margin-top: 200% !important;
+    margin-left: 50% !important;
+  } 
+  .c4 {
+    margin-top: 265% !important;
+    margin-left: 8% !important;
+  }
+  .c5 {
+    margin-top: 350% !important;
+    margin-left: 50% !important;
+  }
+  .c1, .c2, .c3, .c4, .c5 {
+    padding: 10px 10px 10px 10px !important;
+  }
+  .miniature{
+    height: 20px !important;
+  }
+  .text{
+    font-size: 8px !important;
+  }
+
+}
+
+
 .miniature{
   height: 50px;
 }
