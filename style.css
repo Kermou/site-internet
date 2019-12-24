@@ -23,17 +23,69 @@ header{
     transform-style: inherit;
     width: 100vw;
 }
+
+
 header h1 {
-    margin-top: -420px;
-    /*font-size: 3em;*/
-    line-height: 74px;
-    font-size: 55px;
+ margin-top: -20%;
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 51px;
+ line-height: 44px;
+ letter-spacing: -2px;
+ font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .imageuser {
+    margin-top: -12% !important;
+    width: 25vw !important;
+  }
+  header h1 {
+    margin-top: 20%;
+  }
+  .content-all { 
+    height: 1750px !important;
+  }
+  .content-all3 { 
+    height: 1768px !important;
+  }
+  .content-all3 { 
+    margin-top: 600px !important;
+  }
+  .content-all { 
+    margin-top: 762px !important;
+  }
+  .icon {
+  left: 40% !important;
+  }
+  .hearths {
+    height: 600px !important;
+  }
+  .c2 {
+    margin-top: 120% !important;
+    margin-left: 28% !important;
+  }
+  .c3 {
+    margin-top: 200% !important;
+    margin-left: 50% !important;
+  } 
+  .c4 {
+    margin-top: 265% !important;
+    margin-left: 8% !important;
+  }
+  .c5 {
+    margin-top: 350% !important;
+    margin-left: 50% !important;
+  }
+  .c1, .c2, .c3, .c4, .c5 {
+    padding: 10px 10px 10px 10px !important;
+  }
 }
 
 
 header, header:before{
     background: 50% 50% / cover;
-    margin-top: -15%;
+    /*margin-top: -15%;*/
 }
 header::before{
     bottom: 0;
@@ -61,8 +113,8 @@ header * {
 
 .exm {
   position: relative;
-  margin-top: 110px;
-  height: 500px;
+  /*margin-top: 110px;*/
+  /*height: 500px;*/
   width: 100%;
   float: left;
   text-align: center;
@@ -73,11 +125,30 @@ header * {
 
 }
 
+.hearths {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hearth {
+  width: 10%;
+  display:inline-block;
+}
+
 .imageuser {
     border-radius: 80%;
-    margin-top: -100px;
-    height: 200px;
-    width: 200px;
+    /*margin-top: -100px;*/
+    margin-top: -8%;
+    /*height: 200px;*/
+    /*width: 200px;*/
+    width: 15vw;
     border: 1px solid #ddd;
     box-shadow: 0 1px 5px #777
 }
@@ -174,10 +245,9 @@ h6 {
   position: absolute;
   display: inline-block;
   float: left;
-  height: 50px;
   width: 100%;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .wrap2 {
@@ -185,11 +255,13 @@ h6 {
   display: inline-block;
   float: left;
 
+
   /*box-shadow: inset 1px 1px 12px #555;*/
   background: #f2709c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  /*height: 200px;*/
   height: 200px;
   width: 100%;
   text-align: center;
@@ -202,22 +274,24 @@ h6 {
 .half {
     width: 50px;
 }
+
+
+
 .articlename {
-    transform-style: inherit;
-    color:#fff;
-    text-align: center;
-    margin-left: 10px;
+  transform-style: inherit;
+  color:#fff;
+      margin-left: 10px;
     margin-right: 10px;
-    font-size: 2em;
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ font-size: 30px;
+ line-height: 44px;
+ letter-spacing: -2px;
+ font-weight: bold;
 }
 
 
-
-
-
-
 .content-all { 
-  margin-top: 800px;
+  margin-top: 692px;
   /*margin:0;*/
   padding:0;
   height: 5050px;
@@ -232,7 +306,7 @@ h6 {
 
 .exm2 {
   position: relative;
-  height: 300px;
+  /*height: 300px;*/
   width: 100%;
   float: left;
   text-align: center;
@@ -243,7 +317,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 
 
-.exm2 h3 { 
+.exm2 h3, .hearths h3 { 
   --font: Catamaran;
   --fm-capitalHeight: 0.68;
   --fm-descender: 0.54;
@@ -254,7 +328,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   font-size: 40px; 
 }
 
-.exm2 h4 { 
+.exm2 h4, .hearths h4 { 
   color: white; 
   font-family: 'Open Sans', 
   sans-serif; font-size: 30px; 
@@ -309,10 +383,10 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 
 .content-all3 { 
   /*margin:0;*/
-  margin-top: 370px;
+  margin-top: 500px;
   padding:0;
   /*height: 5050px;*/
-  height: 5526px;
+  height: 5070px;
   /* background: url(images/background2.png) no-repeat center fixed; */
   /* background: url(images/background3.png) center; */
   /*background: url(images/all_decors.png) center fixed; */
@@ -322,6 +396,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
   background-size: cover; /* version standardisée */
   z-index: 0;
 }
+
 
 .ContainerVideo {
     /*width: 100%;
@@ -368,38 +443,28 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 
 .c1 {
-  /*margin-top: 200px;
-  margin-left: 300px;*/
-  margin-top: 20%;
-  margin-left: 10%;
-}
-
-.c2 {
-  /*margin-top: 950px;
-  margin-left: 600px;*/
-  margin-top: 90%;
-  margin-left: 50%;
-}
-
-.c3 {
-  /*margin-top: 1850px;
-  margin-left: 50px;*/
-  margin-top: 140%;
+  margin-top: 45%;
   margin-left: 8%;
 }
 
+.c2 {
+  margin-top: 110%;
+  margin-left: 28%;
+}
+
+.c3 {
+  margin-top: 180%;
+  margin-left: 50%;
+}
+
 .c4 {
-  /*margin-top: 3050px;
-  margin-left: 650px;*/
   margin-top: 235%;
-  margin-left: 55%;
+  margin-left: 8%;
 }
 
 .c5 {
-  /*margin-top: 4350px;
-  margin-left: 600px;*/
-  margin-top: 300%;
-  margin-left: 30%;
+  margin-top: 320%;
+  margin-left: 40%;
 }
 
 .c6 {
@@ -487,6 +552,3 @@ font-family: var(--font);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-
