@@ -34,7 +34,10 @@ header h1 {
  font-weight: bold;
 }
 
+  
 
+
+/*@media only screen and (min-width: 450px) and (max-width: 600px) {*/
 @media only screen and (max-width: 600px) {
   .imageuser {
     margin-top: -12% !important;
@@ -44,16 +47,19 @@ header h1 {
     margin-top: 20%;
   }
   .content-all { 
-    height: 1750px !important;
+    /*height: 1750px !important;*/
+    height: 1600px !important;
   }
   .content-all3 { 
-    height: 1768px !important;
+    /*height: 1768px !important;*/
+    height: 1600px !important;
   }
   .content-all3 { 
     margin-top: 600px !important;
   }
   .content-all { 
-    margin-top: 762px !important;
+    /*margin-top: 762px !important;*/
+    margin-top: 905px !important;
   }
   .icon {
   left: 40% !important;
@@ -67,7 +73,7 @@ header h1 {
   }
   .c3 {
     margin-top: 200% !important;
-    margin-left: 50% !important;
+    margin-left: 45% !important;
   } 
   .c4 {
     margin-top: 265% !important;
@@ -75,10 +81,11 @@ header h1 {
   }
   .c5 {
     margin-top: 350% !important;
-    margin-left: 50% !important;
+    margin-left: 45% !important;
   }
   .c1, .c2, .c3, .c4, .c5 {
     padding: 10px 10px 10px 10px !important;
+    width: 45% !important;
   }
   .miniature{
     height: 20px !important;
@@ -86,7 +93,6 @@ header h1 {
   .text{
     font-size: 8px !important;
   }
-
 }
 
 
@@ -99,19 +105,23 @@ header h1 {
     margin-top: -20%;
   }
   .content-all { 
-    height: 3130px !important;
+    /*height: 3130px !important;*/
+    height: 2840px !important;
   }
   .content-all3 { 
-    height: 3120px !important;
+    /*height: 3120px !important;*/
+    height: 2860px !important;
   }
   .content-all3 { 
     margin-top: 510px !important;
   }
   .content-all { 
-    margin-top: 716px !important;
+    /*margin-top: 716px !important;*/
+    margin-top: 795px !important;
   }
   .icon {
-  left: 40% !important;
+  /*left: 40% !important;*/
+  left: 43% !important;
   }
   .hearths {
     height: 600px !important;
@@ -139,7 +149,7 @@ header h1 {
     height: 20px !important;
   }
   .text{
-    font-size: 8px !important;
+    font-size: 11px !important;
   }
 
 }
@@ -255,6 +265,10 @@ h6 {
   font-weight: 150;
   line-height: 25px;
   margin: 80px 0 0 0;
+}
+
+.txt{
+  padding: 0 10%;
 }
 
 
